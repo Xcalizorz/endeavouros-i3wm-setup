@@ -6,5 +6,5 @@ set -euxo pipefail
 ## Install timeshift
 yay -S timeshift-bin
 
-systemctl enable cronie
-systemctl start cronie
+sudo systemctl enable cronie
+sudo systemctl start cronie
